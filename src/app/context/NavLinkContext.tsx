@@ -46,7 +46,7 @@ export function NavLinkProvider({children}: Props){
     ]);
 
     return (
-        <NavLinkContext.Provider value={{NavLinks}}>
+        <NavLinkContext.Provider value={NavLinks}>
             {children}
         </NavLinkContext.Provider>
     );
